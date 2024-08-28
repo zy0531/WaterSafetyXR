@@ -1,0 +1,616 @@
+﻿{
+    "Black_Child_Female_AV_1_OP": {
+        "Version": "1.10.1822.1",
+        "Scene": {
+            "Name": true,
+            "SupportShaderSelect": true
+        },
+        "Object": {
+            "Black_Child_Female_AV_1_OP": {
+                "Generation": "",
+                "Physics": {
+                    "Collision Shapes": {
+                        "CC_Base_Hip": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -5.45739221572876,
+                                    2.4841318130493166,
+                                    59.51805877685547
+                                ],
+                                "WorldRotationQ": [
+                                    0.8121460676193237,
+                                    0.07485553622245789,
+                                    -0.10690497606992722,
+                                    0.5686710476875305
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    1.0000001192092896,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 8.692730903625489,
+                                "Capsule Length": 24.919790267944337
+                            },
+                            "Capsule(0)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    5.457277297973633,
+                                    2.4841299057006838,
+                                    59.51848602294922
+                                ],
+                                "WorldRotationQ": [
+                                    0.8121417760848999,
+                                    -0.07487794011831284,
+                                    0.10693670064210892,
+                                    0.5686681270599365
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    1.0,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 8.692730903625489,
+                                "Capsule Length": 24.919790267944337
+                            }
+                        },
+                        "CC_Base_L_Thigh": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    5.239339828491211,
+                                    0.96738600730896,
+                                    28.94659423828125
+                                ],
+                                "WorldRotationQ": [
+                                    -0.03542841598391533,
+                                    0.7434538006782532,
+                                    -0.6666949987411499,
+                                    -0.039230767637491229
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    0.9999998807907105,
+                                    0.9999998211860657
+                                ],
+                                "Radius": 7.471282958984375,
+                                "Capsule Length": 42.28237533569336
+                            }
+                        },
+                        "CC_Base_L_Calf": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    4.8700785636901859,
+                                    3.5892436504364015,
+                                    4.814361572265625
+                                ],
+                                "WorldRotationQ": [
+                                    -0.004526797216385603,
+                                    0.7083767652511597,
+                                    -0.7058024406433106,
+                                    -0.004985067527741194
+                                ],
+                                "WorldScale": [
+                                    0.9999997615814209,
+                                    0.9999998807907105,
+                                    0.9999998807907105
+                                ],
+                                "Radius": 6.164680480957031,
+                                "Capsule Length": 35.077938079833987
+                            }
+                        },
+                        "CC_Base_R_Thigh": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -5.243110656738281,
+                                    0.97640061378479,
+                                    28.944887161254884
+                                ],
+                                "WorldRotationQ": [
+                                    0.035406190901994708,
+                                    0.743619441986084,
+                                    -0.6665135025978088,
+                                    0.03919630125164986
+                                ],
+                                "WorldScale": [
+                                    0.9999999403953552,
+                                    0.9999998807907105,
+                                    0.9999998211860657
+                                ],
+                                "Radius": 7.438783645629883,
+                                "Capsule Length": 42.3420524597168
+                            }
+                        },
+                        "CC_Base_R_Calf": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -4.867100715637207,
+                                    3.6802518367767336,
+                                    4.81251335144043
+                                ],
+                                "WorldRotationQ": [
+                                    0.004548219498246908,
+                                    0.708163321018219,
+                                    -0.7060163021087647,
+                                    0.0050017391331493858
+                                ],
+                                "WorldScale": [
+                                    1.0000003576278687,
+                                    1.0000005960464478,
+                                    1.000000238418579
+                                ],
+                                "Radius": 6.154086112976074,
+                                "Capsule Length": 35.099090576171878
+                            }
+                        },
+                        "CC_Base_Spine01": {
+                            "Capsule(1)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Z",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -0.00046870511141605675,
+                                    -0.05638551712036133,
+                                    75.31694030761719
+                                ],
+                                "WorldRotationQ": [
+                                    0.47506439685821535,
+                                    0.5237454771995544,
+                                    0.47506389021873476,
+                                    0.5237545371055603
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "Radius": 12.009807586669922,
+                                "Capsule Length": 5.229335784912109
+                            }
+                        },
+                        "CC_Base_NeckTwist01": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    0.004204725846648216,
+                                    2.6097915172576906,
+                                    85.0098648071289
+                                ],
+                                "WorldRotationQ": [
+                                    0.7555035948753357,
+                                    0.0004672493087127805,
+                                    -0.00041970351594500244,
+                                    0.655144214630127
+                                ],
+                                "WorldScale": [
+                                    0.9999999403953552,
+                                    0.9999999403953552,
+                                    0.9999998211860657
+                                ],
+                                "Radius": 5.261119842529297,
+                                "Capsule Length": 5.305225372314453
+                            },
+                            "Capsule(0)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Z",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -0.010074283927679062,
+                                    1.008407711982727,
+                                    71.41203308105469
+                                ],
+                                "WorldRotationQ": [
+                                    0.5345184803009033,
+                                    0.46358731389045718,
+                                    0.53392493724823,
+                                    0.46292656660079958
+                                ],
+                                "WorldScale": [
+                                    0.9999997615814209,
+                                    0.9999999403953552,
+                                    0.9999998807907105
+                                ],
+                                "Radius": 10.932321548461914,
+                                "Capsule Length": 13.708881378173829
+                            },
+                            "Capsule(1)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -7.013504981994629,
+                                    -3.6648521423339845,
+                                    69.22058868408203
+                                ],
+                                "WorldRotationQ": [
+                                    0.2892899513244629,
+                                    0.6457046270370483,
+                                    0.2890303134918213,
+                                    0.6448552012443543
+                                ],
+                                "WorldScale": [
+                                    0.9999997615814209,
+                                    0.9999998211860657,
+                                    0.9999998211860657
+                                ],
+                                "Radius": 7.2599029541015629,
+                                "Capsule Length": 13.24941635131836
+                            },
+                            "Capsule(2)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    6.986482620239258,
+                                    -3.6626672744750978,
+                                    69.20313262939453
+                                ],
+                                "WorldRotationQ": [
+                                    0.2892899513244629,
+                                    0.6457046270370483,
+                                    0.2890303134918213,
+                                    0.6448552012443543
+                                ],
+                                "WorldScale": [
+                                    0.9999997615814209,
+                                    0.9999998211860657,
+                                    0.9999998211860657
+                                ],
+                                "Radius": 7.2599029541015629,
+                                "Capsule Length": 13.24941635131836
+                            }
+                        },
+                        "CC_Base_Head": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    0.007379266899079084,
+                                    -0.09212803840637207,
+                                    93.8662338256836
+                                ],
+                                "WorldRotationQ": [
+                                    0.7071104645729065,
+                                    0.00001471375799155794,
+                                    -0.0000017504545439805952,
+                                    0.7071030735969544
+                                ],
+                                "WorldScale": [
+                                    0.9999998807907105,
+                                    0.9999997615814209,
+                                    0.9999998807907105
+                                ],
+                                "Radius": 7.414432525634766,
+                                "Capsule Length": 6.968164443969727
+                            }
+                        },
+                        "CC_Base_L_Upperarm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    19.70634651184082,
+                                    4.357692241668701,
+                                    78.40827178955078
+                                ],
+                                "WorldRotationQ": [
+                                    0.49040040373802187,
+                                    0.5159590840339661,
+                                    -0.4973021447658539,
+                                    0.4959679841995239
+                                ],
+                                "WorldScale": [
+                                    0.9999998807907105,
+                                    1.0000001192092896,
+                                    0.9999998211860657
+                                ],
+                                "Radius": 5.045426845550537,
+                                "Capsule Length": 22.943687438964845
+                            }
+                        },
+                        "CC_Base_L_Forearm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    37.20552062988281,
+                                    4.0483245849609379,
+                                    79.52718353271485
+                                ],
+                                "WorldRotationQ": [
+                                    0.5015420913696289,
+                                    0.5049484372138977,
+                                    -0.4934085011482239,
+                                    0.5000306963920593
+                                ],
+                                "WorldScale": [
+                                    0.9999999403953552,
+                                    1.0,
+                                    1.0
+                                ],
+                                "Radius": 4.368338584899902,
+                                "Capsule Length": 21.78139877319336
+                            }
+                        },
+                        "CC_Base_L_Hand": {
+                            "Capsule": {
+                                "Bone Active": false,
+                                "Bound Type": "Box",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    44.325279235839847,
+                                    2.8462815284729006,
+                                    79.25565338134766
+                                ],
+                                "WorldRotationQ": [
+                                    -0.4955912232398987,
+                                    -0.5074188113212586,
+                                    0.5088406205177307,
+                                    -0.48784905672073367
+                                ],
+                                "WorldScale": [
+                                    0.9999998807907105,
+                                    0.9999998211860657,
+                                    0.9999997615814209
+                                ],
+                                "Extent": [
+                                    4.5229105949401859,
+                                    9.572021484375,
+                                    8.070647239685059
+                                ]
+                            }
+                        },
+                        "CC_Base_R_Upperarm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -19.712915420532228,
+                                    4.35584020614624,
+                                    78.40766906738281
+                                ],
+                                "WorldRotationQ": [
+                                    -0.49041327834129336,
+                                    0.5159093141555786,
+                                    -0.49737048149108889,
+                                    -0.49593859910964968
+                                ],
+                                "WorldScale": [
+                                    0.9999998807907105,
+                                    1.0000001192092896,
+                                    0.9999998211860657
+                                ],
+                                "Radius": 5.045187950134277,
+                                "Capsule Length": 22.957773208618165
+                            }
+                        },
+                        "CC_Base_R_Forearm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -37.1950798034668,
+                                    4.047818660736084,
+                                    79.5267333984375
+                                ],
+                                "WorldRotationQ": [
+                                    0.5014452338218689,
+                                    -0.5050062537193298,
+                                    0.4933635890483856,
+                                    0.5001137852668762
+                                ],
+                                "WorldScale": [
+                                    0.9999997019767761,
+                                    0.9999998807907105,
+                                    0.9999998807907105
+                                ],
+                                "Radius": 4.368197441101074,
+                                "Capsule Length": 21.76650047302246
+                            }
+                        },
+                        "CC_Base_R_Hand": {
+                            "Capsule": {
+                                "Bone Active": false,
+                                "Bound Type": "Box",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -44.341976165771487,
+                                    3.118414878845215,
+                                    79.23038482666016
+                                ],
+                                "WorldRotationQ": [
+                                    0.4950934648513794,
+                                    -0.5078349709510803,
+                                    0.5088071227073669,
+                                    0.48795634508132937
+                                ],
+                                "WorldScale": [
+                                    0.9999999403953552,
+                                    1.000000238418579,
+                                    1.0
+                                ],
+                                "Extent": [
+                                    5.3147993087768559,
+                                    9.573324203491211,
+                                    8.195562362670899
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Meshes": {
+                    "CC3_Base_Plus": {
+                        "Materials": {
+                            "Black_Child_Female_AV_1_OPT": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    127.5,
+                                    127.5,
+                                    127.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./Black_Child_Female_AV_1_OP.fbm/Black_Child_Female_AV_1_OPT_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./Black_Child_Female_AV_1_OP.fbm/Black_Child_Female_AV_1_OPT_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/Black_Child_Female_AV_1_OP/Black_Child_Female_AV_1_OP/CC3_Base_Plus/Black_Child_Female_AV_1_OPT/Black_Child_Female_AV_1_OPT_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/Black_Child_Female_AV_1_OP/Black_Child_Female_AV_1_OP/CC3_Base_Plus/Black_Child_Female_AV_1_OPT/Black_Child_Female_AV_1_OPT_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/Black_Child_Female_AV_1_OP/Black_Child_Female_AV_1_OP/CC3_Base_Plus/Black_Child_Female_AV_1_OPT/Black_Child_Female_AV_1_OPT_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
