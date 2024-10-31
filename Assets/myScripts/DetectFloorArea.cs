@@ -11,8 +11,9 @@ public class DetectFloorArea : MonoBehaviour
 {
 
     bool IsFloorDetected = false;
-    [SerializeField] GameObject _debugCube;
+    [SerializeField] GameObject _floorRepresentation;
     [SerializeField] GameObject _avatar;
+    public float avatar_offsetY = -1.2f;
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +33,7 @@ public class DetectFloorArea : MonoBehaviour
                 if (largestSurface != null)
                 {
                     Debug.Log("I find the FLOOR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-                    if (_debugCube != null)
+                    if (_floorRepresentation != null)
                     {
                         Vector3 anchorSize = largestSurface.VolumeBounds.HasValue
                             ? largestSurface.VolumeBounds.Value.size
@@ -43,15 +44,15 @@ public class DetectFloorArea : MonoBehaviour
                                 largestSurface.PlaneRect.Value.y, 0.01f);
                         }
 
-                        _debugCube.transform.localScale = anchorSize;
-                        _debugCube.transform.localPosition = largestSurface.transform.position;
-                        _debugCube.transform.localRotation = largestSurface.transform.rotation;
+                        _floorRepresentation.transform.localScale = anchorSize;
+                        _floorRepresentation.transform.localPosition = largestSurface.transform.position;
+                        _floorRepresentation.transform.localRotation = largestSurface.transform.rotation;
 
-                        _debugCube.SetActive(true);
+                        _floorRepresentation.SetActive(true);
 
                         if (_avatar != null)
                         {
-                            _avatar.transform.localPosition = new Vector3(largestSurface.transform.position.x, largestSurface.transform.position.y - 1.2f, largestSurface.transform.position.z);
+                            _avatar.transform.localPosition = new Vector3(largestSurface.transform.position.x, largestSurface.transform.position.y + avatar_offsetY, largestSurface.transform.position.z);
                             _avatar.SetActive(true);
                         }
 
@@ -67,7 +68,18 @@ public class DetectFloorArea : MonoBehaviour
 
             }
         }
+
+
+
+        // Move avatar along wit the floor representation
+        if (_floorRepresentation != null)
+        {
+            _avatar.transform.position = _floorRepresentation.transform.position + new Vector3(0f, avatar_offsetY, 0f);
+        }
     }
+
+
+
 
 
 

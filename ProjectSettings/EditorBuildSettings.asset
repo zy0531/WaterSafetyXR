@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WaterSafetyXR_MRUKBaseSample.unity
     guid: c5284f0eed9fb3040a41836f95ada27d
+  - enabled: 0
+    path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoScene.unity
+    guid: 319dafa5c80f29f428dc1e0d03f04177
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: dab4a0ed8d846144a924ea3492a94768,
       type: 2}
